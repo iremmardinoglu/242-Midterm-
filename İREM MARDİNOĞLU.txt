@@ -1,0 +1,46 @@
+Q1)
+
+name=irem 
+i:105
+r=114
+e=101
+m=109 
+
+surname=mardinoglu
+m=109
+a=97
+r=114
+d=100
+i=105
+n=110
+o=111
+g=103
+l=108
+u=117 
+
+Asciiname= 429 
+ASciisurname= 1074 
+ASciitotal= 1503
+Timernumber=(ASciitotal%14)+1 
+ARRNUMBER=65536-1
+Duration=(ASciisurname%1500)*30
+LEDPINNUMBER=(ASciitotal%4)+12
+
+
+ASciitotal%14=5 
+Timernumber=6
+ASciisurname%1500=1074
+ARRNUMBER=65535
+Duration=32220
+ASciiitotal%4=3 
+LEDPINNUMBER=15
+
+At the end it is :
+
+Asciiname= 429 
+ASciisurname= 1074 
+ASciitotal= 1503
+Timernumber=6
+ARRNUMBER=65535
+Duration=32220
+LEDPINNUMBER=15
